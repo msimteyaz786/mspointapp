@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+</head>
+<body>
+    <div id="profile_box">
+        <!-- <div id="tri"></div> -->
+        <div id="profile_pic"></div>
+
+    </div>
+    <i class="fas fa-plus-circle" id="new_contact"></i>
+
+    <div id="main_all_contact_box">
+        <div id="contact_header">
+            <h1><i class="fas fa-user-circle"></i>All Contacts</h1>
+            <input type="search" placeholder="Search Your Contact Here..." id="search">
+        </div>
+        <div id="all_contact_box">
+
+            <!-- <div id="contact">
+                <p><i class="fas fa-user"></i>  Imteyaz Ali</p>
+                <div id="tool">
+                    <i class="fas fa-edit"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+                <hr color="purple" width="75%" size="1px">
+                <p><i class="fas fa-mobile-alt"></i>  7488414015</p>
+            </div> -->
+
+            
+
+        </div>
+    </div>
+
+
+    <div id="contact_bg" class="animate__animated animate__fadeIn">
+        <center>
+        <div id="add_contact_box" class="animate__animated animate__backInDown">
+            <h1 id="c_heading">Add New Contact</h1>
+            <form>
+                <input type="text" placeholder="Enter Name" id="c_name">
+                <input type="number" placeholder="Enter Mobile Number" id="c_num">
+                <button type="submit" id="add">Add</button>
+                <button type="button" id="close">Close</button>
+            </form>
+        </div>
+    </center>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
